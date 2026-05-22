@@ -1,0 +1,15 @@
+{
+  "name": "bedlisium-ai",
+  "version": "13.7.0",
+  "description": "Bedlisium AI - Hybrid App",
+  "scripts": {
+    "build": "echo 'Web assets ready in www/'",
+    "cap:sync": "npx cap sync android",
+    "cap:build": "npx cap build android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/cli": "^6.0.0"
+  }
+}
